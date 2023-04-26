@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Arboles de la ciudad</title>
+
+    <link rel="icon" type="" href="imagenes/utdt1.png" />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  
+  <body>
+
+    <header>
+        <a class="logo" href="/"><img src="imagenes/utdt.png" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Becas</a></li>
+                <li><a href="#">Programas Internacionales</a></li>
+                <li><a href="#">Graduados</a></li>
+                <li><a href="#">Biblioteca</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Eventos</a></li>
+            </ul>
+        </nav>
+
+        <a class="con" href="#">Contacto</a>
+
+    </header>
+
+    <br><br><br>
+
+    <img src="imagenes/fig.png" alt="imagen">
+
+    <div class="contenedor">
+
+      <div class="info">
+        <ul class="redes">
+          <li><a href="#"><i class="fa-brands fa-instagram fa-sm"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter fa-sm"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook fa-sm"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="desarrollo">
+        <h1>Buenos Aires: ¿cuánto priorizamos la plantación de arboles frente a la extracción en la ciudad?</h1>
+        <div class="por"><i>Por</i>Bonás Valentín y Curzio Tomás</div>
+        <p>Buenos Aires es una de las ciudades más verdes del mundo. Sin dudas, uno de sus mayores atractivos es caminar por sus calles y parques llenos de árboles y plantas. Sin embargo, nos preguntamos, en los últimos años, ¿seguímos este camino? ¿o vamos por el contrario?
+        </p>
+
+        <br>
+        
+        <h2>¿Cuánto solicitamos plantar vs cuánto extraer?</h2>
+        <div style="height: 10px;"></div>
+        <div class="referencia">
+          <div class="caja plant"></div>
+          <div class="plantaciones">
+            Plantaciones
+          </div>
+          <div style="width: 20px;"></div>
+          <div class="caja pod"></div>
+          <div class="podas">
+            Extracciones
+          </div>
+        </div>
+        <div style="height: 110px;"></div>
+        <div class="bajada"><i>Contactos a la línea 147 al Sistema Único de Atención Ciudadana (SUACI) de la Ciudad de Buenos Aires en 2021</i></div>
+        <p>Es facil de ver la diferencia abismal que hay entre los pedidos de plantacion y los de poda. Esta diferencia es preocupante debido a la importancia que representan los arboles. Si los numeros siguen asi, cada vez habran una mayor cantidad de arboles podados y menor solicitudes de plantacion de arboles.</p>
+
+        <br>
+
+        <h2>¿En donde se planta y se extrae más?</h2>
+
+        <div style="height: 10px;"></div>
+
+        <div style="text-align:center">
+          <button class="button" onclick="currentSlide(1)">Extracciones</button>
+          <button class="button" onclick="currentSlide(2)">Plantaciones</button>
+        </div>
+
+        <br>
+
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <iframe width="100%" height="500" frameborder="0" src="mapa_extraccion/index.html"></iframe>
+          </div>
+          <div class="mySlides">
+            <iframe width="100%" height="500" frameborder="0" src="mapa_plantacion/index.html"></iframe>
+          </div>
+
+        </div>
+        <div class="bajada"><i>Contactos a la línea 147 al Sistema Único de Atención Ciudadana (SUACI) de la Ciudad de Buenos Aires en 2021</i></div>
+
+
+        <p>Sin dudas es interesante ver las areas que destacadas. Tenemos tanto las plantaciones como las extracciones resaltadas cada una en su respectivo mapa. Vemos que mientras mas nos acercamos a la parte noroeste del mapa, los niveles de extraccion crecen exageradamente. Sin embargo los niveles de plantacion en esa misma zona son mucho menores.</p>
+
+        <br>
+
+        <h2>Pero, ¿cuánto de esto realmente sucede? ¿cuántas solicitudes se cierran?</h2>
+        
+        <div style="height: 10px;"></div>
+
+        <div style="text-align:center">
+          <button class="button2" onclick="currentSlide2(1)">Plantaciones</button>
+          <button class="button2" onclick="currentSlide2(2)">Extracciones</button>
+        </div>
+
+        <div class="mySlides2">
+          <iframe width="100%" height="130" frameborder="0" src="grafico_2_plant/index.html"></iframe>
+        </div>
+        <div class="mySlides2">
+          <iframe width="100%" height="130" frameborder="0" src="grafico_2_ext/index.html"></iframe>
+        </div>
+        <div class="bajada"><i>Contactos a la línea 147 al Sistema Único de Atención Ciudadana (SUACI) de la Ciudad de Buenos Aires en 2021</i></div>
+
+        <p>Hemos visto que la diferencia entre solicitudes de plantación y extracción de árboles es abismal, pero, estas solicitudes no representan necesariamente los árboles que realmente fueron plantados o extraídos. Para ello, recurrimos a una comparación entre cuantos de estos casos se ejecutaron, y este grafico no hace mas que agravar nuestra preocupacion. No solo el nivel de solicitudes de plantacion es menor, sino que las plantaciones que se terminan realizando son ínfimas.</p>
+
+        <br>
+
+      </div>
+
+    </div>
+
+  <div class="iframe-container">
+    <iframe width="100%" height="104" frameborder="0" src="grafico_1/index.html"></iframe>
+  </div>
+
+  <div style="height: 20px;"></div>
+  <hr color="#EEEEEE" size="0.1px" />
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>UNIDADES ACADÉMICAS</h4>
+          <ul>
+            <li><a href="#">ESCUELA DE NEGOCIOS</a></li>
+            <li><a href="#">ESCUELA DE ARQUITECTURA</a></li>
+            <li><a href="#">ESCUELA DE DERECHO</a></li>
+            <li><a href="#">ESCUELA DE GOBIERNO</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>ALUMNOS</h4>
+          <ul>
+            <li><a href="#">SERVICIOS PARA ESTUDIANTES</a></li>
+            <li><a href="#">BIBLIOTECA</a></li>
+            <li><a href="#">CAMPUS VIRTUAL</a></li>
+            <li><a href="#">SIGEDU</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>DESARROLLO INSTITUCIONAL</h4>
+          <ul>
+            <li><a href="#">CARRERAS DE GRADO</a></li>
+            <li><a href="#">PROGRAMAS DE POSGRADO</a></li>
+            <li><a href="#">EDUCACIÓN EJECUTIVA</a></li>
+            <li><a href="#">FORMACIÓN EJECUTIVA</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>SEGUÍNOS</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr color="#EEEEEE" size="0.1px" />
+
+    <div class="copyright">
+      COPYRIGHT © 2023 BONÁS VALENTÍN, CURZIO TOMÁS
+    </div>
+ </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
+    <script src="https://kit.fontawesome.com/0d57269911.js" crossorigin="anonymous"></script>
+    <script>
+      hljs.highlightAll()
+      iFrameResize({})
+    </script>
+    <script src="script.js"></script>
+
+  </body> 
